@@ -1,12 +1,15 @@
+<!doctype html>
+
 <HTML>
 <TITLE>1010 1110 0001 1101 1100 0000 0101 1101</TITLE>
 <HEAD>
+
+<META NAME="Description" CONTENT="Name: Sean Helvey, School: NYU Courant Insititute, Subject: Computer Science">
 
 <style type="text/css">
   .top
     {
     text-align:center;
-
     font-size:110%;
     font-weight:bold;
     }
@@ -30,7 +33,8 @@
     }
 </style>
 
-<p class="top">Sean Helvey ~ smh436 at nyu dot edu</p>
+<p class="top">Sean Helvey</p>
+<p class="header">smh436 at nyu dot edu</p>
 
 <p class="header">
 <a href="https://github.com/smh436">GitHub</a> 
@@ -47,11 +51,10 @@
 
 <p class="centeredImage"><img src="IMG_1331.JPG" alt="Libros" /></p>
 
-<p class="header">MSCS Candidate at New York University's <a href="http://cims.nyu.edu/">Courant Institute of Mathematical Sciences</a></p>
+<p class="header">MSCS Candidate at New York University's</p>
+<p class="top"><a href="http://cims.nyu.edu/">Courant Institute of Mathematical Sciences</a></p>
+<p class="footer">Web Development | Operating Systems | Database Systems | Discrete Mathematics | Algorithms</p>
 <p class="footer">Programming Languages | Open Source Tools | Computational Linguistics | Digital Signal Theory</p>
-<p class="footer">Operating Systems | Discrete Mathematics | Algorithms | Database Systems | Wireless Networking 
-
-
 
 </BODY>
 
