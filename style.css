@@ -1,0 +1,20 @@
+.bold{
+    text-align:center;
+    font-size:110%;
+    font-weight:bold;
+}
+.norm{
+    text-align:center;
+    font-size:110%;
+}
+.italic{
+    text-align:center;
+    font-style:italic;
+    font-size:90%;
+}
+.image{
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:0px;
+}
