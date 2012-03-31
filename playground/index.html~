@@ -1,0 +1,97 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+  <title>The Playground</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+  <div id="header">
+    <h1>Hacks 2 Do</h1>
+  </div>
+  
+  <div id="left">
+    <h3>Basic Web Stack</h3>
+    <div class="menu">
+      <ul title="WebStack">
+	<li>HTML5</li> 
+	<li>CSS3</li> 
+	<li>jQuery</li>
+	<li>Skeleton</li>
+      </ul>
+      <br style="clear:left"/>
+    </div>
+
+    <h3>Find somewhere 2 play with Node</h3>
+    <a href="https://github.com/joyent/node/wiki/Node-Hosting">https://github.com/joyent/node/wiki/Node-Hosting</a>
+
+    <h3>Other Hosting Providers</h3>
+    <div class="menu">
+      <ul title="HostingProviders">
+	<li>Amazon</li>
+	<li>Heroku</li> 
+	<li>Engine Yard</li>
+      </ul>
+      <br style="clear:left"/>
+    </div>
+
+    <h3>Try a Virtual Private Server (VPS)</h3>
+    <a href="http://en.wikipedia.org/wiki/Virtual_private_server">http://en.wikipedia.org/wiki/Virtual_private_server</a>
+    <br><br>
+    <div class="menu">
+      <ul title="VPSs">
+	<li>6sync</li> 
+	<li>Linode</li>
+      </ul>
+      <br style="clear:left"/>
+    </div>
+
+    <h3>Get Databases Up & Running</h3>
+    <div class="menu">
+      <ul title="DBs">
+	<li>MySQL</li>
+	<li>PostgreSQL</li> 
+	<li>MongoDB</li>
+	<li>CouchDB</li> 
+	<li>Redis</li>
+      </ul>
+      <br style="clear:left"/>
+    </div>
+
+  </div>
+
+  <div id="center">
+  
+    <h3>Interesting APIs</h3>
+    <div class="menu">
+      <ul title="APIs">
+	<li>Zappos <a href="http://developer.zappos.com/">http://developer.zappos.com/</a></li>
+      </ul>
+    <br style="clear:left"/>
+    </div>
+
+    <h3>HTML5 Audio</h3>
+    <audio controls="controls">
+      <source src="song.ogg" type="audio/ogg" />
+      <source src="song.mp3" type="audio/mp3" />
+      Your browser does not support the audio tag.
+    </audio>
+    <br>
+
+    <h3>HTML5 Video</h3>
+    <video width="320" height="240" controls="controls">
+      <source src="ducks.mp4" type="video/mp4" />
+      <source src="movie.ogg" type="video/ogg" />
+      Your browser does not support the video tag.
+    </video>
+
+  </div>
+
+</body>
+
+</html>

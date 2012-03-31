@@ -1,0 +1,126 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+  <title>Phil's Dance Party</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript">
+
+  function main(){
+
+  setTimeout('breakLegs();', 4000);
+  setTimeout('announcement1();', 7000);
+  setTimeout('clear();', 9000);
+
+  setTimeout('walkLeft();', 11000);
+  setTimeout('breakLegs();', 13000);
+  setTimeout('announcement2();', 15000);
+  setTimeout('clear();', 17000);
+
+  setTimeout('walkRight();', 19000);
+  setTimeout('breakLegs();', 21000);
+  setTimeout('announcement3();', 23000);
+  setTimeout('clear();', 25000);
+
+  setTimeout('window.close();', 27000);
+  setTimeout("self.close();",27050) ;
+  };
+
+  function breakLegs(){
+    $(phil).animate({center:"+=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"+=3"}, 125, "linear");
+  };
+  
+  function walkLeft(){
+    $(phil).animate({left:"-=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"-=1%", bottom:"+=3"}, 125, "linear");
+  };
+
+  function walkRight(){
+    $(phil).animate({left:"-=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"+=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"-=3"}, 125, "linear")
+  .animate({left:"+=1%", bottom:"+=3"}, 125, "linear");
+  };
+
+  function announcement1(){
+  document.getElementById('text').innerHTML = ("Phil is having a dance party!");
+  };
+
+  function announcement2(){
+  document.getElementById('text').innerHTML = ("</br></br></br>Celebrate Philanthropy");
+  };
+
+  function announcement3(){
+  document.getElementById('text').innerHTML = ("Philanthromeme.org");
+  };
+
+  function clear(){  
+  document.getElementById('text').innerHTML = (" ");
+  };  
+  
+  </script>
+
+</head>
+    
+<body onload=main()>
+
+  <div id = phil>
+    <br>
+    <img src="phil1.jpg" name="phil" width=300px />
+  </div>
+
+  <div id = text>
+    <br>
+  </div>
+
+</body> 
+
+</html>

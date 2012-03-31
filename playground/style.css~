@@ -1,0 +1,51 @@
+.menu{
+<!--
+    width: 100%;}
+-->
+.menu ul{
+<!--
+    margin: 0; padding: 0;
+    float: left;}
+--> 
+.menu ul li{
+    <!--
+    display: inline;
+    -->
+}
+ 
+.menu ul li a{
+<!--
+    float: left; text-decoration: none;
+    color: white;
+    padding: 10.5px 11px;
+    background-color: #222; 
+-->
+}
+ 
+.menu ul li a:visited{
+<!--
+    color: white;}
+--> 
+.menu ul li a:hover, .menu ul li .current{
+<!--
+    color: #fff;
+    background-color:#0b75b5;
+-->
+}
+
+#header {
+  margin: 5px;
+  padding: 5px;
+  height: 100px;
+}
+#left {
+  position: absolute;
+  left: 30px;
+  width: 500px;
+  top: 120px;
+}
+#center {
+  margin-left: 500px;
+  margin-right: 15px;
+  top: 120px;
+}

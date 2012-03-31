@@ -1,0 +1,16 @@
+#header {
+  margin: 5px;
+  padding: 5px;
+  height: 100px;
+}
+#left {
+  position: absolute;
+  left: 30px;
+  width: 500px;
+  top: 120px;
+}
+#center {
+  margin-left: 500px;
+  margin-right: 15px;
+  top: 120px;
+}
